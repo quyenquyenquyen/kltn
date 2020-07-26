@@ -1,0 +1,183 @@
+
+p{
+    margin-bottom: 10px;
+    font-size: 12pt;
+  }
+  em,strong{
+    font-size: 12pt;
+  }
+  
+  pre {
+    padding: 10px;
+    white-space: pre-wrap;
+    background-color: #333333;
+    color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Times New Roman', Helvetica, Arial, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    line-height: 1.5;
+    color: #24292e;
+    background-color: #fff;
+  }
+  
+  .app {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+  }
+  
+  input.error {
+    border-color: red;
+  }
+  
+  .input-feedback {
+    color: red;
+    height: 5px;
+    margin-top: -12px;
+  }
+  
+  .ql-editor iframe {
+    min-height: 300px;
+  }
+  
+  .ql-editor img {
+    max-height: 300px;
+    object-fit: contain;
+  }
+  
+  .postPage iframe {
+    min-height: 400px;
+  }
+  
+  :root{
+    --mainBlue:#2a2a72;
+    --lightBlue:#009ffd;
+    --mainWhite:#f3f3f3;
+    --mainDark:#232528;
+    --mainYellow:#ffa400; 
+    --mainGray: #b89e6e;
+  }
+  
+  
+  .ql-align-center{
+    text-align: center;
+  }
+  .ql-align-right{
+    text-align: right;
+  }
+  .ql-align-left{
+    text-align: justify;
+  }
+  
+  .ql-font-serif{
+    font-family: Arial, Helvetica, serif
+  }
+  .ql-font-monospace{
+    font-family: 'Courier New', Courier, monospace
+  }
+  
+  .ql-indent-1{
+    padding-left: 4rem;
+  }
+  .ql-indent-8{
+    padding-left: 32rem;
+  }
+  
+  .ql-editor{
+    font-family: "Times New Roman";
+    font-size: 12pt;
+  }
+  
+  .ql-editor p{
+    margin-bottom: 10px;
+  }
+  
+  .ql-font span[data-value="arial"]::before, .ql-font span[data-label="Arial"]::before {
+    font-family: "Arial";
+  }
+  .ql-font span[data-value="helvetica"]::before, .ql-font span[data-label="Helvetica"]::before {
+    font-family: "Helvetica";
+  }
+  .ql-font span[data-value="time"]::before, .ql-font span[data-label="Times New Roman"]::before {
+    font-family: "Times New Roman";
+  }
+  .ql-font span[data-value="courier"]::before, .ql-font span[data-label="Courier"]::before {
+    font-family: "Courier";
+  }
+  .ql-font span[data-value="comic"]::before, .ql-font span[data-label="Comic Sans MS"]::before {
+    font-family: "Comic Sans MS";
+  }
+  
+  .ql-font-arial { font-family: 'Arial'; }
+  .ql-font-helvetica { font-family: 'Helvetica'; }
+  .ql-font-time { font-family: 'Times New Roman'; }
+  .ql-font-courier { font-family: 'Courier'; }
+  .ql-font-comic { font-family: 'Comic Sans MS'; }
+  
+  .table{
+    margin-bottom: 2rem;
+    /* word-break: break-all; */
+  }
+  
+  .table thead{
+    font-weight: bold;
+    font-size: 1.0rem;
+  }
+  
+  .table-bordered thead, th, td {
+    border:1px solid black
+  }
+  
+  /* .table th{
+    border:1px solid black;
+    border-bottom: 1px solid black;
+  } */
+  
+  .table td{
+    border-top:1px solid black;
+    min-width: 50px;
+    max-width: 200px;
+  }
+  
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+  }
+  @media only screen and (min-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+  }
+
+  input[type="text"] {
+    border: 1px solid #ddd;
+    padding: 4px 8px;
+  }
+  
+  input[type="text"]:focus {
+    border: 1px solid #000;
+  }
+
+  input[type="submit"] {
+    font-weight: bold;
+    padding: 4px 8px;
+    border:1px solid #000;
+    background: #3b5998;
+    color:#fff;
+  }
